@@ -1,0 +1,91 @@
+/****************//****************//****************/
+/* This has been created and developed by Sam Fonseca
+/*   no licence needed. Free to use and development */
+/****************//****************//****************/
+
+/* General code to get page to no values */
+html, body, div, h1, a, i, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/*Social Tab code */
+.socialMedia {
+    position: fixed;
+    float: right;
+    margin-top: 150px;
+}
+.socialMedia a {
+    color: white;
+    font-size: 20px;
+}
+.fbSlide {
+    background-color: #3b5998;
+    padding: 10px 20px;
+    color: white;
+    margin-left: -40px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.fbSlide:hover,
+.fbSlide:focus {
+    padding-left: 40px;
+    margin-left: 0;
+}
+.twSlide {
+    background-color: #00aced;
+    padding: 10px 20px;
+    margin-left: -40px;
+    color: white;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.twSlide:hover,
+.twSlide:focus {
+    padding-left: 40px;
+    margin-left: 0;
+}
+.inSlide {
+    background-color: #517fa4;
+    padding: 10px 20px;
+    margin-left: -40px;
+    color: white;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.inSlide:hover,
+.inSlide:focus {
+    padding-left: 40px;
+    margin-left: 0;
+}
+.plusSlide {
+    background-color: #dd4b39;
+    padding: 10px 20px;
+    margin-left: -40px;
+    color: white;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.plusSlide:hover,
+.plusSlide:focus {
+    padding-left: 40px;
+    margin-left: 0;
+}
